@@ -12,8 +12,7 @@ ComfyUI-SparkTTS provides the following main functionalities:
 2. **Voice Cloning**: Clone a voice from a reference audio sample.
 3. **Advanced Voice Cloning**: Clone a voice from a reference audio with control over pitch and speed.
 4. **Audio Processing**: Load and process audio files.
-5. **Speech-to-Text**: Convert speech to text using Whisper. 
-6. **Audio Recording**: Directly record audio for voice cloning or processing.
+5. **Audio Recording**: Directly record audio for voice cloning or processing.
 
 ## Installation
 
