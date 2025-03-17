@@ -1,5 +1,5 @@
 [project]
-name = "Comfyui-SparkTTS"
+name = "Comfyui-Spark-TTS"
 description = "ComfyUI-SparkTTS is a custom ComfyUI node implementation of SparkTTS, an advanced text-to-speech system that harnesses the power of large language models (LLMs) to generate highly accurate and natural-sounding speech."
 version = "1.0.0"
 license = {file = "LICENSE"}
@@ -12,5 +12,5 @@ Repository = "https://github.com/1038lab/ComfyUI-SparkTTS"
 
 [tool.comfy]
 PublisherId = "ailab"
-DisplayName = "ComfyUI-Spark-TTS"
+DisplayName = "ComfyUI-SparkTTS"
 Icon = ""
