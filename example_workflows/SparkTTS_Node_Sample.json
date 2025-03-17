@@ -1,0 +1,353 @@
+{
+  "last_node_id": 16,
+  "last_link_id": 13,
+  "nodes": [
+    {
+      "id": 9,
+      "type": "PreviewAudio",
+      "pos": [
+        1041.7786865234375,
+        1111.321044921875
+      ],
+      "size": [
+        315,
+        88
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 13
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 14,
+      "type": "LoadAudio",
+      "pos": [
+        288.77862548828125,
+        830.957763671875
+      ],
+      "size": [
+        315,
+        136
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            10
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "LoadAudio"
+      },
+      "widgets_values": [
+        "dt.mp3",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 15,
+      "type": "PreviewAudio",
+      "pos": [
+        1039.7786865234375,
+        840.321044921875
+      ],
+      "size": [
+        315,
+        88
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 12
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 16,
+      "type": "PreviewAudio",
+      "pos": [
+        1039.7786865234375,
+        569.321044921875
+      ],
+      "size": [
+        315,
+        88
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 11
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 13,
+      "type": "SparkTTS_VoiceCreator",
+      "pos": [
+        620,
+        565
+      ],
+      "size": [
+        400,
+        214
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            11
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SparkTTS_VoiceCreator"
+      },
+      "widgets_values": [
+        "This is the SparkTTS voice creator node, you can enter text to synthesize. Currently we only support English and Chinese.",
+        "female",
+        "moderate",
+        "moderate",
+        ""
+      ]
+    },
+    {
+      "id": 12,
+      "type": "SparkTTS_VoiceClone",
+      "pos": [
+        620,
+        835
+      ],
+      "size": [
+        400,
+        220
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "reference_audio",
+          "type": "AUDIO",
+          "link": 10
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            12
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SparkTTS_VoiceClone"
+      },
+      "widgets_values": [
+        "This is the SparkTTS voice clone node, you can clone the voice from a reference audio. Enter reference text to improve voice cloning quality. Currently we only support English and Chinese.",
+        "",
+        3000,
+        ""
+      ]
+    },
+    {
+      "id": 11,
+      "type": "SparkTTS_AdvVoiceClone",
+      "pos": [
+        622,
+        1107
+      ],
+      "size": [
+        402,
+        373
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "reference_audio",
+          "type": "AUDIO",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            13
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SparkTTS_AdvVoiceClone"
+      },
+      "widgets_values": [
+        "This is the SparkTTS advanced voice clone node, you can clone the voice from a reference audio with control over pitch and speed. Enter reference text to improve voice cloning quality. Currently we only support English and Chinese.",
+        "",
+        "moderate",
+        "moderate",
+        3000,
+        "",
+        0.8,
+        50,
+        0.95
+      ]
+    },
+    {
+      "id": 10,
+      "type": "LoadAudio",
+      "pos": [
+        290.77862548828125,
+        1108.957763671875
+      ],
+      "size": [
+        315,
+        136
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            9
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "LoadAudio"
+      },
+      "widgets_values": [
+        "dt.mp3",
+        "",
+        ""
+      ]
+    }
+  ],
+  "links": [
+    [
+      9,
+      10,
+      0,
+      11,
+      0,
+      "AUDIO"
+    ],
+    [
+      10,
+      14,
+      0,
+      12,
+      0,
+      "AUDIO"
+    ],
+    [
+      11,
+      13,
+      0,
+      16,
+      0,
+      "AUDIO"
+    ],
+    [
+      12,
+      12,
+      0,
+      15,
+      0,
+      "AUDIO"
+    ],
+    [
+      13,
+      11,
+      0,
+      9,
+      0,
+      "AUDIO"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        335,
+        -420
+      ]
+    },
+    "ue_links": [],
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
