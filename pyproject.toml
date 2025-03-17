@@ -11,6 +11,6 @@ Repository = "https://github.com/1038lab/ComfyUI-SparkTTS"
 # Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = "ailab"
-DisplayName = "ComfyUI-SparkTTS"
+PublisherId = "AILab"
+DisplayName = "ComfyUI-Spark-TTS"
 Icon = ""
