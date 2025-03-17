@@ -1,6 +1,6 @@
 # ComfyUI-SparkTTS
 
-This is a ComfyUI custom node implementation of [SparkTTS](https://github.com/SparkAudio/Spark-TTS), an advanced text-to-speech system that uses the power of large language models (LLM) for highly accurate and natural-sounding voice synthesis.
+ComfyUI_SparkTTS is a custom ComfyUI node implementation of [SparkTTS](https://github.com/SparkAudio/Spark-TTS), an advanced text-to-speech system that harnesses the power of large language models (LLMs) to generate highly accurate and natural-sounding speech.
 
 ![SparkTTS_Node_Sample](https://github.com/user-attachments/assets/ca18bec4-d4b4-44d8-9a0e-a969a279da13)
 
