@@ -38,7 +38,7 @@ install requirment.txt in the ComfyUI-SparkTTS folder
   Installing ComfyUI `comfy install` (if you don't have ComfyUI Installed)
   install the ComfyUI-SparkTTS, use the following command:
   ```bash
-  comfy node install ComfyUI-SparkTTS
+  comfy node registry-install Comfyui-Spark-TTS
   ```
   install requirment.txt in the ComfyUI-SparkTTS folder
   ```bash
