@@ -12,5 +12,5 @@ Repository = "https://github.com/1038lab/ComfyUI-RMBG"
 
 [tool.comfy]
 PublisherId = "ailab"
-DisplayName = "ComfyUI-Spark-TTS"
+DisplayName = "ComfyUI-SparkTTS"
 Icon = ""
