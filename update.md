@@ -3,6 +3,7 @@
 ## V1.1.0 (2025/03/21)
 ### New Features
 The integration of internationalization (`i18n`) support. All newly introduced features are designed to be fully translatable, there by improving accessibility for users who do not speak English.
+
 # Supported Languages
 | Language | Custom Nodes `i18n` UI |
 |----------|-------|
@@ -12,11 +13,3 @@ The integration of internationalization (`i18n`) support. All newly introduced f
 | Русский  | ![ru](https://github.com/user-attachments/assets/6ff3d2d8-ab32-45f8-a949-14f9edc121d3) |
 | 한국어   | ![ko](https://github.com/user-attachments/assets/955fc165-785c-4d56-9a10-a840669bdac2) |
 # End of Selection
-
-### Supported Languages
-  - en (English)
-  - zh (中文)
-  - ru (Русский)
-  - ja (日本語)
-  - ko (한국어)
-  - fr (Français)
