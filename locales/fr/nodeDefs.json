@@ -40,6 +40,9 @@
       "reference_text": {
         "name": "Texte de Référence"
       },
+      "max_tokens": {
+        "name": "Nombre de Tokens Maximum"
+      },
       "batch_texts": {
         "name": "Textes en Lot"
       },
@@ -65,6 +68,9 @@
       },
       "reference_text": {
         "name": "Texte de Référence"
+      },
+      "max_tokens": {
+        "name": "Nombre de Tokens Maximum"
       },
       "pitch": {
         "name": "Hauteur"

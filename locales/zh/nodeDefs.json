@@ -41,6 +41,9 @@
       "reference_text": {
         "name": "参考文本"
       },
+      "max_tokens": {
+        "name": "最大令牌数"
+      },
       "batch_texts": {
         "name": "批量文本"
       },
@@ -66,6 +69,9 @@
       },
       "reference_text": {
         "name": "参考文本"
+      },
+      "max_tokens": {
+        "name": "最大令牌数"
       },
       "pitch": {
         "name": "音调"

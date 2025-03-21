@@ -40,6 +40,9 @@
       "reference_text": {
         "name": "参照テキスト"
       },
+      "max_tokens": {
+        "name": "最大トークン数"
+      },
       "batch_texts": {
         "name": "バッチテキスト"
       },
@@ -65,6 +68,9 @@
       },
       "reference_text": {
         "name": "参照テキスト"
+      },
+      "max_tokens": {
+        "name": "最大トークン数"
       },
       "pitch": {
         "name": "ピッチ"

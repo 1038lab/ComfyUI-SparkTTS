@@ -40,6 +40,9 @@
       "reference_text": {
         "name": "Reference Text"
       },
+      "max_tokens": {
+        "name": "Max Tokens"
+      },
       "batch_texts": {
         "name": "Batch Texts"
       },
@@ -65,6 +68,9 @@
       },
       "reference_text": {
         "name": "Reference Text"
+      },
+      "max_tokens": {
+        "name": "Max Tokens"
       },
       "pitch": {
         "name": "Pitch"
