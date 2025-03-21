@@ -1,4 +1,4 @@
-# ComfyUI-SparkTTS v1.0.0
+# ComfyUI-SparkTTS v1.1.0
 # This custom node for ComfyUI provides functionality for audio recording.
 #
 # This integration script follows GPL-3.0 License.
@@ -16,7 +16,7 @@ from scipy import ndimage
 from scipy.signal import lfilter
 from comfy.utils import ProgressBar
 
-class AudioRecorder:
+class SparkTTS_AudioRecorder:
     @classmethod
     def INPUT_TYPES(cls):
         return {
@@ -113,9 +113,9 @@ class AudioRecorder:
         return (final_audio,)
 
 NODE_CLASS_MAPPINGS = {
-    "AudioRecorder": AudioRecorder
+    "SparkTTS_AudioRecorder": SparkTTS_AudioRecorder
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "AudioRecorder": "Audio Recorder"
+    "SparkTTS_AudioRecorder": "Audio Recorder"
 }

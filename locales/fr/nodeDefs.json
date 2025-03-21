@@ -1,0 +1,109 @@
+{
+  "SparkTTS_VoiceCreator" : {
+    "display_name": "Créateur de Voix SparkTTS 🔊",
+    "inputs": {
+      "text": {
+        "name": "Texte"
+      },
+      "gender": {
+        "name": "Genre"
+      },
+      "pitch": {
+        "name": "Hauteur"
+      },
+      "speed": {
+        "name": "Vitesse"
+      },
+      "batch_texts": {
+        "name": "Textes en Lot"
+      },
+      "temperature": {
+        "name": "Température"
+      },
+      "top_k": {
+        "name": "Top K"
+      },
+      "top_p": {
+        "name": "Top P"
+      }
+    }
+  },
+  "SparkTTS_VoiceClone" : {
+    "display_name": "Clone de Voix SparkTTS 🔊",
+    "inputs": {
+      "text": {
+        "name": "Texte"
+      },
+      "reference_audio": {
+        "name": "Audio de Référence"
+      },
+      "reference_text": {
+        "name": "Texte de Référence"
+      },
+      "batch_texts": {
+        "name": "Textes en Lot"
+      },
+      "temperature": {
+        "name": "Température"
+      },
+      "top_k": {
+        "name": "Top K"
+      },
+      "top_p": {
+        "name": "Top P"
+      }
+    }
+  },
+  "SparkTTS_AdvVoiceClone" : {
+    "display_name": "Clone de Voix Avancé SparkTTS 🔊",
+    "inputs": {
+      "text": {
+        "name": "Texte"
+      },
+      "reference_audio": {
+        "name": "Audio de Référence"
+      },
+      "reference_text": {
+        "name": "Texte de Référence"
+      },
+      "pitch": {
+        "name": "Hauteur"
+      },
+      "speed": {
+        "name": "Vitesse"
+      },
+      "batch_texts": {
+        "name": "Textes en Lot"
+      },
+      "temperature": {
+        "name": "Température"
+      },
+      "top_k": {
+        "name": "Top K"
+      },
+      "top_p": {
+        "name": "Top P"
+      }
+    }
+  },
+  "SparkTTS_AudioRecorder" : {
+    "display_name": "Enregistreur Audio SparkTTS 🔊",
+    "inputs": {
+      "recording": {
+        "name": "Enregistrement"
+      },
+      "recording_duration": {
+        "name": "Durée d'Enregistrement"
+      },
+      "sample_rate": {
+        "name": "Taux d'Échantillonnage"
+      },
+      "noise_threshold": {
+        "name": "Seuil de Bruit"
+      },
+      "smoothing_kernel_size": {
+        "name": "Taille du Noyau de Lissage"
+      }
+    }
+  }
+}

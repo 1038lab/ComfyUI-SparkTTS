@@ -1,0 +1,109 @@
+{
+  "SparkTTS_VoiceCreator" : {
+    "display_name": "SparkTTS Voice Creator 🔊",
+    "inputs": {
+      "text": {
+        "name": "Text"
+      },
+      "gender": {
+        "name": "Gender"
+      },
+      "pitch": {
+        "name": "Pitch"
+      },
+      "speed": {
+        "name": "Speed"
+      },
+      "batch_texts": {
+        "name": "Batch Texts"
+      },
+      "temperature": {
+        "name": "Temperature"
+      },
+      "top_k": {
+        "name": "Top K"
+      },
+      "top_p": {
+        "name": "Top P"
+      }
+    }
+  },
+  "SparkTTS_VoiceClone" : {
+    "display_name": "SparkTTS Voice Clone 🔊",
+    "inputs": {
+      "text": {
+        "name": "Text"
+      },
+      "reference_audio": {
+        "name": "Reference Audio"
+      },
+      "reference_text": {
+        "name": "Reference Text"
+      },
+      "batch_texts": {
+        "name": "Batch Texts"
+      },
+      "temperature": {
+        "name": "Temperature"
+      },
+      "top_k": {
+        "name": "Top K"
+      },
+      "top_p": {
+        "name": "Top P"
+      }
+    }
+  },
+  "SparkTTS_AdvVoiceClone" : {
+    "display_name": "SparkTTS Advanced Voice Clone 🔊",
+    "inputs": {
+      "text": {
+        "name": "Text"
+      },
+      "reference_audio": {
+        "name": "Reference Audio"
+      },
+      "reference_text": {
+        "name": "Reference Text"
+      },
+      "pitch": {
+        "name": "Pitch"
+      },
+      "speed": {
+        "name": "Speed"
+      },
+      "batch_texts": {
+        "name": "Batch Texts"
+      },
+      "temperature": {
+        "name": "Temperature"
+      },
+      "top_k": {
+        "name": "Top K"
+      },
+      "top_p": {
+        "name": "Top P"
+      }
+    }
+  },
+  "SparkTTS_AudioRecorder" : {
+    "display_name": "SparkTTS Audio Recorder 🔊",
+    "inputs": {
+      "recording": {
+        "name": "Recording"
+      },
+      "recording_duration": {
+        "name": "Recording Duration"
+      },
+      "sample_rate": {
+        "name": "Sample Rate"
+      },
+      "noise_threshold": {
+        "name": "Noise Threshold"
+      },
+      "smoothing_kernel_size": {
+        "name": "Smoothing Kernel Size"
+      }
+    }
+  }
+}
