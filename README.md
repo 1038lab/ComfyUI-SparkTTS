@@ -4,6 +4,13 @@ ComfyUI_SparkTTS is a custom ComfyUI node implementation of [SparkTTS](https://g
 
 ![SparkTTS_Node_Sample](https://github.com/user-attachments/assets/ca18bec4-d4b4-44d8-9a0e-a969a279da13)
 
+## News & Updates
+- **2025/03/21**: Update ComfyUI-SparkTTS to **v1.1.0** ( [update.md](https://github.com/1038lab/ComfyUI-SparkTTS/blob/main/update.md#v200-20250321) )
+
+  - Integrated internationalization (i18n) support for multiple languages.
+  - Improved user interface for dynamic language switching.
+  - Enhanced accessibility for non-English speaking users with fully translatable features.
+
 ## Features
 
 ComfyUI-SparkTTS provides the following main functionalities:
