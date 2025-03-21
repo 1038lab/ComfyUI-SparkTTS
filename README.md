@@ -15,6 +15,8 @@ ComfyUI_SparkTTS is a custom ComfyUI node implementation of [SparkTTS](https://g
 
 ComfyUI-SparkTTS provides the following main functionalities:
 
+![kokoroTTS_menu](https://github.com/user-attachments/assets/48ec1e8b-66bd-486e-bcc9-8ffd8a19123d)
+
 1. **Voice Creation**: Create a customized voice by adjusting parameters like gender, pitch, and speed.
 2. **Voice Cloning**: Clone a voice from a reference audio sample.
 3. **Advanced Voice Cloning**: Clone a voice from a reference audio with control over pitch and speed.
