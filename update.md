@@ -1,4 +1,4 @@
-# ComfyUI-RMBG Update Log
+# ComfyUI-SparkTTS Update Log
 
 ## V1.1.0 (2025/03/21)
 ### New Features
