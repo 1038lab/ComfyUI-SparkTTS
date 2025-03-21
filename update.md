@@ -12,4 +12,4 @@ The integration of internationalization (`i18n`) support. All newly introduced f
 | 日本語   | ![ja](https://github.com/user-attachments/assets/4a93635f-7eba-4d01-bbc5-b1541fac8a8e) |
 | Русский  | ![ru](https://github.com/user-attachments/assets/6ff3d2d8-ab32-45f8-a949-14f9edc121d3) |
 | 한국어   | ![ko](https://github.com/user-attachments/assets/955fc165-785c-4d56-9a10-a840669bdac2) |
-# End of Selection
+| Français | ![fr](https://github.com/user-attachments/assets/a0b4cacb-328e-4c4f-ad53-467e1de5db58) |
