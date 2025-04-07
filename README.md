@@ -55,7 +55,7 @@ install requirment.txt in the ComfyUI-SparkTTS folder
 
 ### 4. Manually download the models:
 - The model will be automatically downloaded to `ComfyUI/models/TTS/SparkTTS/` when first time using the custom node.
-- Manually download the SparkTTS-2.0 model by visiting this [link](https://huggingface.co/SparkAudio/Spark-TTS-0.5B/tree/main), then download the files and place them in the `/ComfyUI/models/TTSSparkTTS/SparkTTS-2.0` folder.
+- Manually download the SparkTTS-2.0 model by visiting this [link](https://huggingface.co/SparkAudio/Spark-TTS-0.5B/tree/main), then download the files and place them in the `ComfyUI/models/TTS/SparkTTS/` folder.
 
 ## Nodes
 
