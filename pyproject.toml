@@ -1,7 +1,7 @@
 [project]
 name = "Comfyui-Spark-TTS"
 description = "ComfyUI-SparkTTS is a custom ComfyUI node implementation of SparkTTS, an advanced text-to-speech system that harnesses the power of large language models (LLMs) to generate highly accurate and natural-sounding speech."
-version = "1.1.0"
+version = "1.1.1"
 license = {file = "LICENSE"}
 
 dependencies = ["einops>=0.8.1", "einx>=0.3.0", "omegaconf>=2.3.0", "soundfile>=0.12.1", "torch>=2.0.0", "transformers>=4.30.0", "huggingface_hub>=0.19.0", "torchaudio>=0.13.0", "librosa>=0.10.0", "sounddevice>=0.4.6", "scipy>=1.10.0", "numpy>=1.24.0", "soxr>=0.3.5"]
