@@ -1,5 +1,11 @@
 # ComfyUI-SparkTTS Update Log
 
+## V1.1.1 (2025/04/15)
+### Update and bug fixes
+- Resolved issue with model download and corrected associated file path.
+- Enhanced audio recorder functionality for improved performance and stability.
+- Optimized audio processing algorithms, featuring advanced noise reduction adjustments tailored to frequency detail.
+
 ## V1.1.0 (2025/03/21)
 ### New Features
 The integration of internationalization (`i18n`) support. All newly introduced features are designed to be fully translatable, there by improving accessibility for users who do not speak English.
@@ -13,3 +19,4 @@ The integration of internationalization (`i18n`) support. All newly introduced f
 | Русский  | ![ru](https://github.com/user-attachments/assets/6ff3d2d8-ab32-45f8-a949-14f9edc121d3) |
 | 한국어   | ![ko](https://github.com/user-attachments/assets/955fc165-785c-4d56-9a10-a840669bdac2) |
 | Français | ![fr](https://github.com/user-attachments/assets/a0b4cacb-328e-4c4f-ad53-467e1de5db58) |
+# End of Selection
