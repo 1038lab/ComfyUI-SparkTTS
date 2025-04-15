@@ -1,4 +1,4 @@
-# ComfyUI-SparkTTS v1.1.0
+# ComfyUI-SparkTTS v1.1.1
 # This custom node for ComfyUI provides functionality for text-to-speech synthesis using SparkTTS,
 # including voice creation, voice cloning, and advanced voice cloning with control over pitch and speed.
 #
@@ -28,7 +28,6 @@ except ImportError:
     HF_AVAILABLE = False
     print("huggingface_hub not available, automatic model download disabled")
 
-# 添加当前目录到sys.path
 node_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(node_dir)
 
@@ -43,6 +42,8 @@ except ImportError:
 class SparkTTSCore:    
     MODEL_FILES = {
         "base": [
+            "config.yaml",
+            "BiCodec/config.yaml",
             "BiCodec/model.safetensors",
             "LLM/config.json",
             "LLM/model.safetensors",
@@ -55,7 +56,7 @@ class SparkTTSCore:
         "wav2vec2": [
             "wav2vec2-large-xlsr-53/config.json",
             "wav2vec2-large-xlsr-53/preprocessor_config.json",
-            "wav2vec2-large-xlsr-53/model.safetensors"
+            "wav2vec2-large-xlsr-53/pytorch_model.bin"
         ]
     }
     
@@ -94,18 +95,12 @@ class SparkTTSCore:
         if not HF_AVAILABLE:
             return False
             
-        try:
-            repo_files = list_repo_files(self._repo_id)
-        except Exception as e:
-            print(f"Failed to get repo files: {e}")
-            return False
-            
         all_files = self.MODEL_FILES["base"] + self.MODEL_FILES["wav2vec2"]
         missing_files = []
         
         for file in all_files:
             file_path = self.model_dir / file
-            if not file_path.exists() and file in repo_files:
+            if not file_path.exists():
                 missing_files.append(file)
                 os.makedirs(file_path.parent, exist_ok=True)
         
@@ -121,9 +116,8 @@ class SparkTTSCore:
                         local_dir_use_symlinks=False
                     )
                 except Exception as e:
-                    if not "generation_config.json" in file:
-                        print(f"Failed to download {file}: {e}")
-                        return False
+                    print(f"Failed to download {file}: {e}")
+                    return False
             
         return True
 

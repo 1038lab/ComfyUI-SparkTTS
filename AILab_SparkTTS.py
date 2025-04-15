@@ -1,4 +1,4 @@
-# ComfyUI-SparkTTS v1.1.0
+# ComfyUI-SparkTTS v1.1.1
 # This custom node for ComfyUI provides functionality for text-to-speech synthesis using SparkTTS,
 # including voice creation, voice cloning, and advanced voice cloning with control over pitch and speed.
 #
